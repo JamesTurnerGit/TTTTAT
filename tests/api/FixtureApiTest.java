@@ -23,8 +23,13 @@ class FixtureApiTest {
     }
 
     @Test
-    void allFixturesValid() {
-        fail();
+    void allFixturesHaveId() throws IOException {
+        Fixture[] fixtures = api.getAllFixtures();
+        for (Fixture fixture : fixtures) {
+            if(fixture.fixtureId == null ){
+                fail("at least one fixture has no id");
+            }
+        }
     }
 }
 
