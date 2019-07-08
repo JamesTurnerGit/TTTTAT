@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c79ef72-a55c-421f-9d96-7f605995d333" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/api/Fixture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/Fixture.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/api/FixtureApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api/FixtureApiTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -35,19 +34,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/api/FixtureApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/api/Fixture.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -79,8 +75,8 @@
         <option value="$PROJECT_DIR$/tests/api/FixtureApiTests.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/api/FixtureApi.java" />
-        <option value="$PROJECT_DIR$/tests/api/FixtureApiTest.java" />
         <option value="$PROJECT_DIR$/src/api/Fixture.java" />
+        <option value="$PROJECT_DIR$/tests/api/FixtureApiTest.java" />
       </list>
     </option>
   </component>
@@ -314,7 +310,7 @@
       <updated>1562614002343</updated>
       <workItem from="1562614004885" duration="2129000" />
       <workItem from="1562617687920" duration="7125000" />
-      <workItem from="1562625394490" duration="3871000" />
+      <workItem from="1562625394490" duration="4137000" />
     </task>
     <servers />
   </component>
@@ -351,13 +347,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13125000" />
+    <option name="totallyTimeSpent" value="13391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1890849" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1890849" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -367,7 +363,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32917964" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.32917964" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32917964" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3997923" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -375,7 +371,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32917964" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32917964" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32917964" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -427,16 +423,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/api/FixtureApiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/api/FixtureApi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -451,6 +437,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/api/FixtureApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
         </state>
       </provider>
     </entry>
