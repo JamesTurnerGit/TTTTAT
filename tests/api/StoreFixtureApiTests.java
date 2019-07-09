@@ -34,7 +34,7 @@ public class StoreFixtureApiTests {
 
         api.storeFixture(fixture);
 
-        Fixture remoteFixture = api.getAllFixtures()[2];
+        Fixture remoteFixture = api.getAllFixtures()[3]; // would find it using a array search function if more time
 
         System.out.println(remoteFixture.footballFullState.awayTeam);
         assertEquals(fixture.fixtureId, remoteFixture.fixtureId);
