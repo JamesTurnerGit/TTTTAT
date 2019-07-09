@@ -6,8 +6,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-import com.fasterxml.jackson.core.JsonParseException;
-import com.fasterxml.jackson.databind.JsonMappingException;
+import api.models.Fixture;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 
