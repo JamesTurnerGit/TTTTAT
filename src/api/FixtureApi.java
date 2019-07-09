@@ -61,5 +61,7 @@ public class FixtureApi {
         byte[] input = json.getBytes("utf-8");
         os.write(input, 0, input.length);
         validateResponse(client);
+
+        //TODO: would now do a waituntil with retries until fixture appears in getAllFixtures,
     }
 }

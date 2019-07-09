@@ -78,11 +78,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/api/FixtureApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="881">
-              <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+            <state relative-caret-position="813">
+              <caret line="64" column="15" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/api/StoreFixtureApiTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            <state relative-caret-position="377">
+              <caret line="38" column="69" selection-start-line="38" selection-start-column="69" selection-end-line="38" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,8 +132,8 @@
         <option value="$PROJECT_DIR$/src/api/models/Goal.java" />
         <option value="$PROJECT_DIR$/src/api/models/Team.java" />
         <option value="$PROJECT_DIR$/src/api/models/FootballFullState.java" />
-        <option value="$PROJECT_DIR$/src/api/FixtureApi.java" />
         <option value="$PROJECT_DIR$/tests/api/StoreFixtureApiTests.java" />
+        <option value="$PROJECT_DIR$/src/api/FixtureApi.java" />
       </list>
     </option>
   </component>
@@ -273,23 +273,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StoreFixtureApiTests">
-    <configuration name="FixtureApiTest.allFixturesCorrectNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="trading-tribe-technical-test-assessment-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.models.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api" />
-      <option name="MAIN_CLASS_NAME" value="api.FixtureApiTest" />
-      <option name="METHOD_NAME" value="allFixturesCorrectNumbers" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StoreFixtureApiTests.CanStoreAFixture">
     <configuration name="FixtureApiTest.allFixturesHaveId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="trading-tribe-technical-test-assessment-test" />
       <extension name="coverage">
@@ -336,6 +320,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StoreFixtureApiTests.CanStoreAFixture" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="trading-tribe-technical-test-assessment-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.StoreFixtureApiTests" />
+      <option name="METHOD_NAME" value="CanStoreAFixture" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="api in trading-tribe-technical-test-assessment-test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="trading-tribe-technical-test-assessment-test" />
       <extension name="coverage">
@@ -352,11 +352,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StoreFixtureApiTests.CanStoreAFixture" />
         <item itemvalue="JUnit.StoreFixtureApiTests" />
         <item itemvalue="JUnit.FixtureApiTests" />
         <item itemvalue="JUnit.api in trading-tribe-technical-test-assessment-test" />
         <item itemvalue="JUnit.FixtureApiTest.allFixturesHaveId" />
-        <item itemvalue="JUnit.FixtureApiTest.allFixturesCorrectNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -372,29 +372,11 @@
       <updated>1562614002343</updated>
       <workItem from="1562614004885" duration="2129000" />
       <workItem from="1562617687920" duration="7125000" />
-      <workItem from="1562625394490" duration="8378000" />
+      <workItem from="1562625394490" duration="8854000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="api_in_trading-tribe-technical-test-assessment-test - 2019.07.09 at 01h 04m 45s.xml">
-      <configuration name="api in trading-tribe-technical-test-assessment-test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="api_in_trading-tribe-technical-test-assessment-test - 2019.07.09 at 01h 05m 38s.xml">
-      <configuration name="api in trading-tribe-technical-test-assessment-test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FixtureApiTests - 2019.07.09 at 01h 18m 13s.xml">
-      <configuration name="FixtureApiTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FixtureApiTests - 2019.07.09 at 01h 20m 01s.xml">
-      <configuration name="FixtureApiTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FixtureApiTests - 2019.07.09 at 01h 20m 30s.xml">
-      <configuration name="FixtureApiTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FixtureApiTests - 2019.07.09 at 01h 20m 46s.xml">
-      <configuration name="FixtureApiTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FixtureApiTests - 2019.07.09 at 01h 21m 05s.xml">
       <configuration name="FixtureApiTests" configurationId="JUnit" />
     </history-entry>
@@ -407,14 +389,64 @@
     <history-entry file="StoreFixtureApiTests - 2019.07.09 at 01h 56m 02s.xml">
       <configuration name="StoreFixtureApiTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StoreFixtureApiTests_CanStoreAFixture - 2019.07.09 at 01h 59m 07s.xml">
+      <configuration name="StoreFixtureApiTests.CanStoreAFixture" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StoreFixtureApiTests_CanStoreAFixture - 2019.07.09 at 01h 59m 42s.xml">
+      <configuration name="StoreFixtureApiTests.CanStoreAFixture" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StoreFixtureApiTests_CanStoreAFixture - 2019.07.09 at 02h 01m 03s.xml">
+      <configuration name="StoreFixtureApiTests.CanStoreAFixture" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StoreFixtureApiTests_CanStoreAFixture - 2019.07.09 at 02h 01m 47s.xml">
+      <configuration name="StoreFixtureApiTests.CanStoreAFixture" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StoreFixtureApiTests_CanStoreAFixture - 2019.07.09 at 02h 02m 28s.xml">
+      <configuration name="StoreFixtureApiTests.CanStoreAFixture" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StoreFixtureApiTests_CanStoreAFixture - 2019.07.09 at 02h 02m 44s.xml">
+      <configuration name="StoreFixtureApiTests.CanStoreAFixture" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17632000" />
+    <option name="totallyTimeSpent" value="18108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1890849" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32917964" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32917964" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3997923" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32917964" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32917964" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.3296582" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+    </layout>
+    <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" weight="0.1890849" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
@@ -445,42 +477,30 @@
       <window_info anchor="right" id="Bean Validation" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Database" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1890849" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32917964" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.32917964" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.3997923" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32917964" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32917964" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.3296582" />
-      <window_info anchor="right" id="Bean Validation" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Database" order="9" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tests/api/StoreFixtureApiTests.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/tests/api/StoreFixtureApiTests.java</url>
+          <line>20</line>
+          <properties class="api.StoreFixtureApiTests" method="CanStoreAFixture">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/net/URL.java">
@@ -562,20 +582,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/FixtureApi.java">
+    <entry file="file://$PROJECT_DIR$/tests/api/StoreFixtureApiTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="881">
-          <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+        <state relative-caret-position="377">
+          <caret line="38" column="69" selection-start-line="38" selection-start-column="69" selection-end-line="38" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/api/StoreFixtureApiTests.java">
+    <entry file="file://$PROJECT_DIR$/src/api/FixtureApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="813">
+          <caret line="64" column="15" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

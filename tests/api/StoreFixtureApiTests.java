@@ -33,6 +33,12 @@ public class StoreFixtureApiTests {
         Fixture fixture = new Fixture(1,fixtureStatus,footballFullState);
 
         api.storeFixture(fixture);
+
+        Fixture remoteFixture = api.getAllFixtures()[2];
+
+        System.out.println(remoteFixture.footballFullState.awayTeam);
+        assertEquals(fixture.fixtureId, remoteFixture.fixtureId);
+        //does junit have a deep-compare?
     }
 }
 
