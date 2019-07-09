@@ -18,12 +18,11 @@ public class StoreFixtureApiTests {
     }
 
     @Test
-    void CanStoreAFixtureAndRetrieveit()
-    {
-        Goal[] goals= new Goal[0];
+    void CanStoreAFixture() throws IOException {
+        Goal[] goals= new Goal[1];
         goals[0] = new Goal(1400,true,1,false,false,"FIRST_HALF",6999, "1");;
 
-        Team[] teams= new Team[1];
+        Team[] teams= new Team[2];
         teams[0] =  new Team ( "HOME", "chipmunks","HOME");
         teams[1] = new Team ( "AWAY", "chippettes","AWAY");
 
@@ -33,7 +32,7 @@ public class StoreFixtureApiTests {
 
         Fixture fixture = new Fixture(1,fixtureStatus,footballFullState);
 
-        //api.storeFixture(fixture);
+        api.storeFixture(fixture);
     }
 }
 
