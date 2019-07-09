@@ -1,5 +1,6 @@
 package api;
 
+import api.models.Fixture;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
