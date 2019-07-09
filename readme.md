@@ -44,11 +44,13 @@ Test data should probably be extracted to some place other than directly in the 
 seperate repo was made mostly to obscure target of this repo.
 
 ## next steps
+1. validate using Postman that Fixture was actually entered correctly.
+
 1. need a method of restoring DB to known state after and before tests
 
-2. need to wait for database entry to appear - retry until getFixtureByID(newID) != null
+1. need to wait for database entry to appear - retry until getFixtureByID(newID) != null
 
-3. figure out why MVN test isn't working properly  - was running via intelliJ directly so didn't notice until was done.
+1. figure out why MVN test isn't working properly  - was running via intelliJ directly so didn't notice until was done.
 
 
 

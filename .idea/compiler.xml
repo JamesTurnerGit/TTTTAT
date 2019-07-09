@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="trading-tribe-technical-test-assessment-test" />
+        <module name="TTTTAT" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="trading-tribe-technical-test-assessment-test" target="12" />
+      <module name="TTTTAT" target="12" />
     </bytecodeTargetLevel>
   </component>
 </project>
