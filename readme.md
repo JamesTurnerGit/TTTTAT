@@ -43,6 +43,8 @@ Test data should probably be extracted to some place other than directly in the 
 
 seperate repo was made mostly to obscure target of this repo, normally tests would be located in the same repo.
 
+If I had more time i'd try starting again from a fresh enviroment to document the required steps properly.
+
 ## next steps
 1. validate using Postman that Fixture was actually entered correctly.
 
