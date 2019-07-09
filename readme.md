@@ -25,23 +25,23 @@
  
  
 ## comments about development
-Enviroment setup took a very long time to get right from scratch, having never heard of a lot of the more modern technology used in java development today. I didn't count the time taken to set up the enviroment as part of my working time. 
+Enviroment setup took a very long time to get right from scratch.Had to figure out a lot of different technology.  
 
-I'm unsure with how i've done the Exception handling- need to look into conventions surrounding this, gut instinct says that you should add it to the signature if you can't recover the problem.
+I'm unsure with how i've done the Exception handling- need to look into conventions surrounding this, gut instinct says that you should add it to the method signature if you can't recover the problem.
 
 I didn't finish as much as i'd like due to the amount of boilerplate Java requires, Perhaps this is solved by using some extra technologies.
 
 Tired and a little burntout from long and hard weekend at a hackathon. 
 
-Happy to learn because I have a ongoing personal project where Java is going to be usefull.
+Happy to learn because I have a ongoing personal project where Java is going to be very useful.
 
-all problems with speed were due to enviroment or typing out boilerplate, was never stuck apart from that.
+all problems with speed were due to enviroment or typing out boilerplate, actual coding was smooth.
 
-Felt i had to type out all the models when inserting data or it was a false test. went back and added custom constructors to aid adding of test data
+Felt i had to type out all the models when it came to inserting fixtures or it was a false test. Went back and added custom constructors to the models to aid the creation of test data.
 
 Test data should probably be extracted to some place other than directly in the test, but because the only place it was needed wasn't finished, it never came about.
 
-seperate repo was made mostly to obscure target of this repo.
+seperate repo was made mostly to obscure target of this repo, normally tests would be located in the same repo.
 
 ## next steps
 1. validate using Postman that Fixture was actually entered correctly.
@@ -52,5 +52,6 @@ seperate repo was made mostly to obscure target of this repo.
 
 1. figure out why MVN test isn't working properly  - was running via intelliJ directly so didn't notice until was done.
 
+1. More error handling in general- particularly retries on certain response codes
 
 
